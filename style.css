@@ -162,6 +162,7 @@ table {
 
   .contents h5 {
     font-family: "GyeonggiTitleM", sans-serif;
+    font-size: 1em;
     text-align: center;
     font-weight: 100;
     margin: 0;
@@ -188,6 +189,5 @@ table {
     font-size: 1.2em;
     margin: 0;
     font-style: italic;
-    padding: 0 20px;
   }
 }
