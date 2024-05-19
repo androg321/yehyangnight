@@ -137,6 +137,15 @@ table {
   margin: 0;
 }
 
+.four {
+  font-family: "GyeonggiBatang", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2em;
+  margin: 0;
+  font-style: italic;
+}
+
 @media (max-width: 900px) {
   .parent {
     background-position: 97% 100%;
@@ -170,5 +179,15 @@ table {
     padding: 50px;
     font-family: "GyeonggiBatang", sans-serif;
     font-size: 1.5em;
+  }
+
+  .four {
+    font-family: "GyeonggiBatang", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin: 0;
+    font-style: italic;
+    padding: 0 20px;
   }
 }
