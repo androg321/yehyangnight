@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "GyeonggiBatang";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yeongdo-Rg";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/Yeongdo-Rg.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GyeonggiTitleM";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  color: white;
+}
+
+.parent {
+  overflow: scroll;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(back.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.part {
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+  color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contents p {
+  font-family: "Yeongdo-Rg", sans-serif;
+  text-align: center;
+  font-size: 5em;
+  margin: 0;
+}
+
+.contents h6 {
+  font-family: "GyeonggiBatang", sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 200;
+  padding-bottom: 40px;
+}
+
+.contents h5 {
+  font-family: "GyeonggiTitleM", sans-serif;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+#date {
+  padding-top: 150px;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.contents2 {
+  width: 100vw;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  height: 500px;
+  padding: 50px 600px;
+  font-family: "GyeonggiBatang", sans-serif;
+  font-size: 1.5em;
+}
+
+.contents2 h5 {
+  font-family: "GyeonggiBatang", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2em;
+  margin: 0;
+}
+
+.contents3 h5 {
+  font-family: "GyeonggiBatang", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2em;
+  margin: 0;
+}
+
+.song {
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.song a {
+  font-family: "GyeonggiBatang", sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.contents3 h6 {
+  font-family: "GyeonggiBatang", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.5em;
+  padding-top: 20px;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .parent {
+    background-position: 97% 100%;
+  }
+
+  .contents > p {
+    font-size: 2.2em;
+  }
+
+  .contents h6 {
+    font-size: 1em;
+    font-weight: 200;
+  }
+
+  .contents h5 {
+    font-family: "GyeonggiTitleM", sans-serif;
+    text-align: center;
+    font-weight: 100;
+    margin: 0;
+  }
+
+  #date {
+    padding-top: 150px;
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  table {
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+    font-family: "GyeonggiBatang", sans-serif;
+    font-size: 1.5em;
+  }
+}
